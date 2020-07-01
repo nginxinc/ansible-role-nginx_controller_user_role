@@ -1,0 +1,21 @@
+---
+# vars file for ansible-role-nginx_controller_user_role
+
+# nginx_controller_user_role:
+#   metadata:
+#     name:  # the name of the user role
+#     displayName:   # a friendly display name for the user role (spaces and special characters allowed)
+#     description:  # a description of the user role
+#     tags:   # an array of tags
+#     - tagOne
+#     - tagTwo
+#   desiredState:
+#     permissions:  # an array of endpoints, objects, and the level of access
+#     - 
+#       access: "READ"
+#       path: "/services/environments/development"
+#     -
+#       access: "WRITE"
+#       path: "/services/environments/test"
+        
+
