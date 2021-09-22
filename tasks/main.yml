@@ -3,7 +3,7 @@
 
 - name: Fail if required variables are not defined
   assert:
-    that: item is in vars and vars[item] | length > 0
+    that: ("{{ item }} is defined") and ("{{ item }} | length > 0")
   loop:
     - nginx_controller_api_version
     - nginx_controller_fqdn

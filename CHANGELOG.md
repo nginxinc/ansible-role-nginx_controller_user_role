@@ -10,4 +10,3 @@ ENHANCEMENTS:
 BUG FIXES:
 
 *   Fix #1
-*   Fix #2
