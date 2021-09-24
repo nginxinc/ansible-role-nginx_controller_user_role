@@ -11,11 +11,9 @@
 #     - tagTwo
 #   desiredState:
 #     permissions:  # an array of endpoints, objects, and the level of access
-#     - 
+#     -
 #       access: "READ"
 #       path: "/services/environments/development"
 #     -
 #       access: "WRITE"
 #       path: "/services/environments/test"
-        
-

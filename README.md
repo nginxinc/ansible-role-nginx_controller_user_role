@@ -52,22 +52,20 @@ To use this role you can create a playbook such as the following (let's name it 
       include_role:
         name: nginxinc.nginx_controller_user_role
       vars:
-        nginx_controller_user:
+        nginx_controller_user_role:
           metadata:
             name:  # the name of the user role
             displayName:   # a friendly display name for the user role (spaces and special characters allowed)
             description:  # a description of the user role
             tags:   # an array of tags
-            - tagOne
-            - tagTwo
+              - tagOne
+              - tagTwo
           desiredState:
             permissions:  # an array of endpoints, objects, and the level of access
-            -
-              access: "READ"
-              path: "/services/environments/development"
-            -
-              access: "WRITE"
-              path: "/services/environments/test"
+              - access: "READ"
+                path: "/services/environments/development"
+              - access: "WRITE"
+                path: "/services/environments/test"
 ```
 
 You can then run `ansible-playbook nginx_controller_user_role.yaml` to execute the playbook.
