@@ -12,3 +12,6 @@ updates:
     ignore:
       - dependency-name: "ansible-lint"
         update-types: ["version-update:semver-major"]
+    ignore:
+      - dependency-name: "ansible-lint"
+        update-types: ["version-update:semver-major"]
