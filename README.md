@@ -1,6 +1,8 @@
 NGINX Controller User Role
 ==========================
 
+# This repository has been archived. There will likely be no further development on the project and security vulnerabilities may be unaddressed.
+
 Manage custom user roles with NGINX Controller.
 The user role is how permissions are assigned to users.  The user role defines the objects / endpoints within NGINX Controller that the user can interact with and what they can do with those objects.
 NGINX Controller includes three built-in Roles that cannot be modified: admin, user, and guest.
